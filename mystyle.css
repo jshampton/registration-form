@@ -1,0 +1,174 @@
+/* ---------- GENERAL STYLING ---------------------------- */
+
+body {
+    margin: 0 auto;
+    font-size: 14px;
+    font-family: 'Merriweather', serif;
+    color: #2d3945;
+}
+    
+h1 {
+    margin: 0;
+    padding: 25px 0;
+    color: #fff;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 300;
+    }
+
+h2 {
+    margin: 0;
+    padding: 5px 0;
+    color: #2d3945;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    color: #9da3a8;
+    font-weight: 300;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* ---------- GENERAL FORM STYLING ----------------------- */
+
+#title {
+    background-color: #2d3945;
+}
+
+#form-wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+#intro {
+    text-align: center;
+    border-bottom: 5px solid #2d3945;
+    margin-bottom: 3px;
+    padding: 50px 0 35px;
+}
+
+#contact-information {
+    border-top: 2px solid #2d3945;
+    border-bottom: 2px solid #2d3945;
+    padding: 20px 0;
+}
+
+/* ---------- LABELING STYLING --------------------------- */
+
+legend {
+    font-weight: 400;
+    font-size: 1.3em;
+    padding: 20px 0;
+}
+
+label {
+    font-weight: 300;
+    color: #617383;
+}
+
+/* ---------- INPUT STYLING ------------------------------ */
+
+input {
+    margin: 10px 0 15px;
+    background-color: #eff0f1;
+    outline-style: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-field input {
+    padding: 18px;    
+    width: 254px;
+    height: 14px; 
+}
+
+input[placeholder] {
+    text-align: right;
+    font-style: italic;
+    font-size: .9em;
+    font-weight: 300i;
+}
+
+input:focus {
+    border: 2px solid #46698b;
+    outline-style: none;
+}
+
+#state-name select {
+    margin: 10px 0 15px;
+    padding: 0 0 0 18px;    
+    width: 290px;
+    height: 50px;
+    background-color: #eff0f1;
+    outline-style: none;
+    border: none;
+    border-radius: 5px;
+    font-size: .9em;
+    font-weight: 300;
+    color: #a4a9ae;
+}
+
+#state-name select:focus {
+    border: 2px solid #46698b;
+    outline-style: none;
+}
+
+#zip-code input {
+    width: 150px;
+    height: 50px;
+    display: block;
+}
+
+/* ---------- NEWSLETTER SECTION STYLING ----------------- */
+
+#newsletter p {
+    padding: 10px 0; 
+}
+
+.newsletter-info label {
+    margin-left: 10px;
+}
+
+input[type=checkbox radio] {
+    width: 18px;
+    outline: none;
+}
+
+input:checked {
+    border: 2px solid #46698b;
+    color: #46698b;
+}
+    
+input[type=textarea] {
+    padding: 18px;
+    width: 254px;
+    min-height: 100px;
+}
+
+/* ---------- SUBMIT STYLING ----------------------------- */
+
+input[type=submit] {
+    width: 289px;
+    height: 60px;
+    background-color: #4ebbb5;
+    color: #fff;
+    text-align: center;
+    font-size: 1.2em
+}
+
+/* ---------- SUBMIT STYLING ----------------------------- */
+
+footer {
+    padding: 30px 0 210px;
+    color: #a4a9ae;
+    text-align: center;
+    font-weight: 300;
+    font-style: italic;
+}
