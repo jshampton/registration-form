@@ -23,13 +23,14 @@
                 <h2>Signup for our newsletter</h2>
                 <p>Get the latest news on how your code is doing right in your inbox</p>
             </div>
-
+            
             <form action="registration-form.html" method="post" id="registration-form">
                 
-                <div id="contact-information">
-                
+                <fieldset>
                     <legend>Contact Information</legend>
-                    
+                
+                <div id="contact-information" class="clearfix">
+                                    
                     <div class="form-field">
                         <label for="full-name">Full Name</label>
                         <input type="text" id="full-name" name="full-name" placeholder="Required">
@@ -54,9 +55,9 @@
                         <input type="text" id="city" name="city">
                     </div>
                     
-                    <div class="form-field" id="state-name">
+                    <div class="form-field clearfix" id="state-name">
                         <label>State</label>
-                        <select id="state-name">
+                        <select id="state-name-list">
                         <option value="choose-state" >Choose State</option>
                         <option value="alabama">Alabama</option>
                         <option value="alaska">Alaska</option>
@@ -71,8 +72,11 @@
                     
                 </div>
                 
+                </fieldset>
+                
                 <div id="newsletter">
                 
+                    <fieldset>
                     <legend>Newsletter</legend>
                     
                     <p>Select a newsletter that you would like to recieve</p>
@@ -99,8 +103,10 @@
                     <p>Other topis you'd like to hear about</p>
                     
                     <div class="newsletter-info" id="othert-opics">
-                        <input type="textarea" id="topics" name="topics">
+                        <textarea id="topics" name="topics">
+                        </textarea>
                     </div>
+                    </fieldset>
                 </div>
                 
                 <input type="submit" value="Sign Up"> 
